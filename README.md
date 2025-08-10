@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Aplikasi Pengajuan Izin (Laravel 10)
+# Aplikasi Pengajuan Izin
 
 ## Deskripsi
 Backend API + Dashboard sederhana untuk sistem pengajuan izin (cuti, sakit, dll) dengan 3 level pengguna:
