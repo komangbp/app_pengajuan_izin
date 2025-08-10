@@ -22,29 +22,29 @@ Dibuat menggunakan **Laravel 10**, **Sanctum** untuk autentikasi API.
 
 ### Struktur Koleksi
 - Auth
-  Register
-  Login
-  Logout
+  - Register
+  - Login
+  - Logout
 - User Biasa
-  Ajukan Izin
-  Lihat Semua Izin Sendiri
-  Lihat Detail Izin
-  Update Izin
-  Batalkan Izin
-  Hapus Izin
-  Update Password
+  - Ajukan Izin
+  - Lihat Semua Izin Sendiri
+  - Lihat Detail Izin
+  - Update Izin
+  - Batalkan Izin
+  - Hapus Izin
+  - Update Password
 - Admin
-  Lihat Semua User
-  Tambah Verifikator
-  Ubah User Jadi Verifikator
-  Reset Password User
-  Lihat Semua Izin
+  - Lihat Semua User
+  - Tambah Verifikator
+  - Ubah User Jadi Verifikator
+  - Reset Password User
+  - Lihat Semua Izin
 - Verifikator
-  Lihat User (Filter Verified)
-  Verifikasi User
-  Lihat Izin (Filter Status)
-  ACC Izin
-  Tolak Izin
+  - Lihat User (Filter Verified)
+  - Verifikasi User
+  - Lihat Izin (Filter Status)
+  - ACC Izin
+  - Tolak Izin
 
 ---
 
