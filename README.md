@@ -46,6 +46,18 @@ Dibuat menggunakan **Laravel 10**, **Sanctum** untuk autentikasi API.
   - ACC Izin
   - Tolak Izin
 
+### Otomatisasi Token
+- Folder `Auth`
+  - Login Admin (otomatis simpan token ke `Token-Admin`)
+  - Login Verifikator (otomatis simpan token ke `Token-Verifikator`)
+  - Login User (otomatis simpan token ke `Token-User`)
+- Folder `Admin`
+  - GET /admin/users (pakai token admin)
+- Folder `Verifikator`
+  - GET /verifikator/users (pakai token verifikator)
+- Folder `User`
+  - GET /profile (pakai token user)
+
 ---
 
 ## 🚀 Instalasi
