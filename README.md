@@ -7,28 +7,48 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Aplikasi Pengajuan Izin
 
-## Deskripsi
+# 📌 Aplikasi Pengajuan Izin
+
+## 📝 Deskripsi
 Backend API + Dashboard sederhana untuk sistem pengajuan izin (cuti, sakit, dll) dengan 3 level pengguna:
 - **Admin**: Mengelola user, menambah verifikator, melihat semua izin, reset password.
 - **Verifikator**: Memverifikasi user, memproses izin (ACC/Tolak/Revisi).
 - **User Biasa**: Mengajukan izin, melihat status, update atau batalkan izin.
 
-Dibuat menggunakan **Laravel 10**, **Sanctum** untuk autentikasi API, dan **Blade + Bootstrap** untuk dashboard web.
+Dibuat menggunakan **Laravel 10**, **Sanctum** untuk autentikasi API.
 
 ---
 
-## Fitur
-- API berbasis JSON untuk digunakan di mobile/SPA.
-- Dashboard web untuk admin & verifikator.
-- Autentikasi via Laravel Sanctum.
-- Validasi input menggunakan Form Request.
-- Role-based Access Control dengan middleware.
+### Struktur Koleksi
+- Auth
+  Register
+  Login
+  Logout
+- User Biasa
+  Ajukan Izin
+  Lihat Semua Izin Sendiri
+  Lihat Detail Izin
+  Update Izin
+  Batalkan Izin
+  Hapus Izin
+  Update Password
+- Admin
+  Lihat Semua User
+  Tambah Verifikator
+  Ubah User Jadi Verifikator
+  Reset Password User
+  Lihat Semua Izin
+- Verifikator
+  Lihat User (Filter Verified)
+  Verifikasi User
+  Lihat Izin (Filter Status)
+  ACC Izin
+  Tolak Izin
 
 ---
 
-## Instalasi
+## 🚀 Instalasi
 
 1. Clone repository:
    ```bash
